@@ -38,11 +38,6 @@ footer {
     transform: scale(110%);
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .div-aide {
     display: inline;
     height: 100%;
