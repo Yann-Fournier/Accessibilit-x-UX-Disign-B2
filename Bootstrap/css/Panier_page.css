@@ -81,4 +81,8 @@ footer {
     .prix {
         font-size: 12px;
     }
+
+    .panier-pic {
+        width: 100%;
+    }
 }
