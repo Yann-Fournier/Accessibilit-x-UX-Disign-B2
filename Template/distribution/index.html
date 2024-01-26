@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
   <link rel="shortcut icon" href="img/favicon.png">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" /> -->
+  <!-- Search bar -->
   <link href="css/main.css" rel="stylesheet" />
 </head>
 
@@ -46,22 +46,10 @@
                 <!-- Link--><a class="nav-link active" href="index.html">Acceuil</a>
               </li>
               <li class="nav-item">
-                <!-- Link--><a class="nav-link" href="shop.html">Tous les voyages</a>
+                <!-- Link--><a class="nav-link" href="shop.html">Cataloge</a>
               </li>
-              <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="pagesDropdown" href="#"
-                  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                <div class="dropdown-menu mt-3 shadow-sm" aria-labelledby="pagesDropdown"><a
-                    class="dropdown-item border-0 transition-link" href="index.html">Homepage</a><a
-                    class="dropdown-item border-0 transition-link" href="shop.html">Category</a><a
-                    class="dropdown-item border-0 transition-link" href="detail.html">Product detail</a><a
-                    class="dropdown-item border-0 transition-link" href="cart.html">Shopping cart</a><a
-                    class="dropdown-item border-0 transition-link" href="checkout.html">Checkout</a></div>
-              </li> -->
             </ul>
             <ul class="navbar-nav ms-auto">
-              <!-- <li class="nav-item"><a class="nav-link" href="cart.html"> <i
-                    class="fas fa-dolly-flatbed me-1 text-gray"></i>Cart<small
-                    class="text-gray fw-normal">(2)</small></a></li> -->
               <li class="nav-item"><a class="nav-link" href="#!"> <i class="far fa-heart me-1"></i><small
                     class="text-gray fw-normal"> (0)</small></a></li>
               <li class="nav-item"><a class="nav-link" href="#!">Inscription</a></li>
@@ -101,16 +89,6 @@
                     leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur
                     ridiculus mus. Vestibulum ultricies aliquam convallis.</p>
                   <div class="row align-items-stretch mb-4 gx-0">
-                    <!-- <div class="col-sm-7">
-                      <div class="border d-flex align-items-center justify-content-between py-1 px-3"><span
-                          class="small text-uppercase text-gray mr-4 no-select">Quantity</span>
-                        <div class="quantity">
-                          <button class="dec-btn p-0"><i class="fas fa-caret-left"></i></button>
-                          <input class="form-control border-0 shadow-0 p-0" type="text" value="1">
-                          <button class="inc-btn p-0"><i class="fas fa-caret-right"></i></button>
-                        </div>
-                      </div>
-                    </div> -->
                     <div class="col-sm-5"><a
                         class="btn btn-dark btn-sm w-100 h-100 d-flex align-items-center justify-content-center px-0" style="padding: 3px;"
                         href="cart.html">Réserver maintenant</a></div>
@@ -146,7 +124,7 @@
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
                 </svg>
               </div>
-              <input id="search" type="text" placeholder="What are you looking for?" />
+              <input id="search" type="text" placeholder="Saisissez votre destination" />
             </div>
             <div class="input-field second-wrap">
               <div class="icon-wrap">
@@ -171,14 +149,15 @@
                 </svg>
               </div>
               <select data-trigger="" name="choices-single-defaul">
-                <option placeholder="">2 Adults</option>
-                <option>3 Adults</option>
-                <option>4 Adults</option>
-                <option>5 Adults</option>
+                <option placeholder="">2 Adultes</option>
+                <option>1 Adultes</option>
+                <option>3 Adultes</option>
+                <option>4 Adultes</option>
+                <option>5 Adultes</option>
               </select>
             </div>
             <div class="input-field fifth-wrap">
-              <button class="btn-search" type="button">SEARCH</button>
+              <button class="btn-search text-uppercase" type="button">RECERCHER</button>
             </div>
           </div>
         </form>
@@ -380,59 +359,12 @@
           </div>
         </div>
       </section>
-      <!-- SERVICES-->
-      <!-- <section class="py-5 bg-light">
-        <div class="container">
-          <div class="row text-center gy-3">
-            <div class="col-lg-4">
-              <div class="d-inline-block">
-                <div class="d-flex align-items-end">
-                  <svg class="svg-icon svg-icon-big svg-icon-light">
-                    <use xlink:href="#delivery-time-1"> </use>
-                  </svg>
-                  <div class="text-start ms-3">
-                    <h6 class="text-uppercase mb-1">Free shipping</h6>
-                    <p class="text-sm mb-0 text-muted">Free shipping worldwide</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="d-inline-block">
-                <div class="d-flex align-items-end">
-                  <svg class="svg-icon svg-icon-big svg-icon-light">
-                    <use xlink:href="#helpline-24h-1"> </use>
-                  </svg>
-                  <div class="text-start ms-3">
-                    <h6 class="text-uppercase mb-1">24 x 7 service</h6>
-                    <p class="text-sm mb-0 text-muted">Free shipping worldwide</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="d-inline-block">
-                <div class="d-flex align-items-end">
-                  <svg class="svg-icon svg-icon-big svg-icon-light">
-                    <use xlink:href="#label-tag-1"> </use>
-                  </svg>
-                  <div class="text-start ms-3">
-                    <h6 class="text-uppercase mb-1">Festivaloffers</h6>
-                    <p class="text-sm mb-0 text-muted">Free shipping worldwide</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
       <!-- NEWSLETTER-->
       <section class="py-5">
         <div class="container p-0">
           <div class="row gy-3">
             <div class="col-lg-6">
               <h5 class="text-uppercase">Soyons amis !</h5>
-              <!-- <p class="text-sm text-muted mb-0">Nisi nisi tempor consequat laboris nisi.</p> -->
             </div>
             <div class="col-lg-6">
               <form action="#">
