@@ -4,6 +4,11 @@
     color: white;
 }
 
+.black {
+  color: black;
+}
+
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3,100%);
