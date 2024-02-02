@@ -258,11 +258,15 @@
     <div class="formulaire_contact">
         <h2 style="margin-left:20px; margin-bottom:20px; font-size:30px;">Contactez-moi !</h2>
         <center>
-            <input type="text" placeholder="Nom" class="formulaire_contact-nom">
-            <input type="text" placeholder="Email" class="formulaire_contact-email">
-            <input type="text" placeholder="Objet" class="formulaire_contact-objet">
-            <input type="text" placeholder="Description" class="formulaire_contact-description">
-            <button class="formulaire_contact-button">Envoyer</button>
+            <input type="text" placeholder="Nom" id="formulaire_contact-nom" class="formulaire_contact-nom">
+            <div id="nomPB"></div>
+            <input type="email" name="email" placeholder="exemple@example.com" id="formulaire_contact-email" class="formulaire_contact-email">
+            <div id="emailPB"></div>
+            <input type="text" placeholder="Objet" id="formulaire_contact-objet" class="formulaire_contact-objet">
+            <div id="objetPB"></div>
+            <input type="text" placeholder="Description" id="formulaire_contact-description" class="formulaire_contact-description">
+            <div id="descriptionPB"></div>
+            <button id="boutonEnvoyer" class="formulaire_contact-button">Envoyer</button>
             <button id="retour-haut" class="formulaire_contact-button">Retouner en haut de la page</button>
         </center>
     </div>
