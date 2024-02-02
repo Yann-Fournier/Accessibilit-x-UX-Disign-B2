@@ -19,7 +19,7 @@ a:hover {
     margin: 40px auto;
     background-color: #fff;
     /* background-color: rgb(14, 17, 23); */
-    border: 1px solid #cdcdcd;
+    border: 2px solid #1D809F;
     padding: 10px;
     border-radius:20px;
     -o-border-radius:20px;
@@ -430,7 +430,7 @@ to {
     -webkit-animation: Animate-Linux 4s;
     -moz-animation: Animate-Linux 4s;
     -o-animation: Animate-Linux 4s;
-    width: 20%;
+    width: 40%;
     height: 50px;
     position: absolute;
     background-color: #d375de;
@@ -440,25 +440,25 @@ to {
     width: 10px;
 }
 to {
-    width: 20%}
+    width: 40%}
 }@-webkit-keyframes Animate-Linux {
     from {
     width: 10px;
 }
 to {
-    width: 20%}
+    width: 40%}
 }@-moz-keyframes Animate-Linux {
     from {
     width: 10px;
 }
 to {
-    width: 20%}
+    width: 40%}
 }@-o-keyframes Animate-Linux {
     from {
     width: 10px;
 }
 to {
-    width: 20%}
+    width: 40%}
 }
 
 #Skill-BDD {
@@ -609,7 +609,7 @@ to {
 .Skill-Area {
     z-index: 1;
     float: left;
-    position: absolute;
+    position: left;
     margin-top: 15px;
     margin-left: 15px;
     text-shadow: none;

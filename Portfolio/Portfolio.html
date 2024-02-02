@@ -4,33 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/Competences.css">
-    <link rel="stylesheet" href="css/haut.css">
+    <link rel="stylesheet" href="css/presentation.css">
+    <link rel="stylesheet" href="css/competences.css">
+    <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-        <div class="row" style="margin-top: 20px; margin-left:0px; margin-right:0px;" >
-            <div class="col-12  col-md-6 text-center profil-picture-div">
-                <img class="profil-picture" src="assets/Profil.png">
-            </div>
-            <div class="col-12  col-md-6" style="padding: 0px; padding-top: 20px;">
-                <center>
-                    <p class="username">Yann Fournier</p>
-                    <p class="description-user">29-11-2004 (19ans)</p>
-                    <p class="description-user">Etudiant en deuxième année d'informatique à Paris Ynov Campus.</p>
-                    <p class="description-user">📱 (+33) 06 95 71 31 00</p>
-                    <p class="description-user">📧 ya.fourni@icloud.com</p>
-                    <a href="assets/CV.pdf" style="margin-bottom:5px;">- Mon CV</a>
-                    <a href="https://github.com/Yann-Fournier" style="margin-bottom:5px;">- Mon Github</a>
-                    <a href="https://www.linkedin.com/in/yann-fournier-243453296/">- Mon Linkedin</a>
-                </center>
-                
-            </div>
+    <div class="row" style="margin-top: 20px; margin-left:0px; margin-right:0px;">
+        <div class="col-12  col-md-6 text-center profil-picture-div">
+            <img class="profil-picture" src="assets/Profil.png">
         </div>
-    
+        <div class="col-12  col-md-6" style="padding: 0px; padding-top: 20px;">
+            <center>
+                <p class="username">Yann Fournier</p>
+                <p class="description-user">29-11-2004 (19ans)</p>
+                <p class="description-user">Etudiant en deuxième année d'informatique à Paris Ynov Campus.</p>
+                <p class="description-user">📱 (+33) 06 95 71 31 00</p>
+                <p class="description-user">📧 ya.fourni@icloud.com</p>
+                <a href="assets/CV.pdf" style="margin-bottom:30px; margin-top:15px;">Mon CV</a>
+                <div class="container px-4 px-lg-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white mr-3"
+                                href="https://www.linkedin.com/in/yann-fournier-243453296/"><i
+                                    class="icon-social-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white" href="https://github.com/Yann-Fournier"><i
+                                    class="icon-social-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </center>
+        </div>
+    </div>
+
     <div id="SkillBox">
         <center>
             <p style="font-size: 25px;"><b>Comp&#233;tences</b></p>
@@ -107,7 +122,7 @@
         <div class="SkillBar">
             <div id="Skill-Linux">
                 <span class="Skill-Area ">Linux</span>
-                <span class="PercentText ">20%</span>
+                <span class="PercentText ">40%</span>
             </div>
         </div>
         <div class="SkillBar">
@@ -133,19 +148,104 @@
         </div>
     </div>
 
+    <div class="projets">
+        <h2 style="margin-left:20px; margin-bottom:20px; font-size:30px;">Mes Projets</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" style="margin: 20px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <p style="height: 300px; width:100%">Salut 1</p>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <p style="height: 300px; width:100%">Salut 2</p>
+                </div>
+                <div class="carousel-item">
+                    <p style="height: 300px; width:100%">Salut 3</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="experiences">
+        <h2 style="margin-left:20px; margin-bottom:20px; font-size:30px;">Mes Expériences</h2>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="divisionFront">
+                    <p>Bio life / vendeur (Octobre 2021 – Avril 2022)</p>
+                </div>
+                <div class="divisionBack">
+                    <p>
+                        - Mise en étalage des fruits et légumes sur le marché de la Garenne Colombes,<br>
+                        - Déchargement et chargement de la marchandise,<br>
+                        - Accueille et vente auprès des clients <br>
+                        - Gestion de la caisse
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="divisionFront">
+                    <p>Abeille Assurances / stage d’observation de 3e (Décembre 2019)</p>
+                </div>
+                <div class="divisionBack">
+                    <p>
+                        - Compréhension de l’organisation de l’entreprise <br>
+                        - Interview des directeurs <br>
+                        - Rédaction d’un rapport de stage
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" style="margin-bottom: 20px;">
+            <div class="flip-card-inner">
+                <div class="divisionFront">
+                    <p>Collège Les Vallées / concours projet fusée (2017, 2018, 2019)</p>
+                </div>
+                <div class="divisionBack">
+                    <p>
+                        - Construction en équipe d’une fusée selon certains critères et en compétition face à
+                        d’autres équipes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="formulaire_contact">
-        <h3 style="margin-left:20px; margin-bottom:20px;">Contactez-moi!</h3>
+        <h2 style="margin-left:20px; margin-bottom:20px; font-size:30px;">Contactez-moi !</h2>
         <center>
             <input type="text" placeholder="Nom" class="formulaire_contact-nom">
             <input type="text" placeholder="Email" class="formulaire_contact-email">
             <input type="text" placeholder="Objet" class="formulaire_contact-objet">
             <input type="text" placeholder="Description" class="formulaire_contact-description">
             <button class="formulaire_contact-button">Envoyer</button>
-            <button id="retour-haut" class="formulaire_contact-button" style="margin-top: 10px;">Retouner en haut de la page</button>
-        </center> 
+            <button id="retour-haut" class="formulaire_contact-button">Retouner en haut de la
+                page</button>
+        </center>
     </div>
     <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

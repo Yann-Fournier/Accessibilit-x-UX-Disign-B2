@@ -43,6 +43,13 @@
 .formulaire_contact-button {
     width: 85%;
     height: 45px;
+    color: white;
     margin-bottom: 20px;
     border-radius: 5px;
+    background-color: #1D809F;
+    border-style: none;
+}
+
+.formulaire_contact-button {
+    margin-top: 10px;
 }
